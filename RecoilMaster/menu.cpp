@@ -1,4 +1,4 @@
-#include "menu.h"
+﻿#include "menu.h"
 #include <iostream>
 #include <Windows.h>
 const void compileDateTime() noexcept {
@@ -20,18 +20,19 @@ const void compileDateTime() noexcept {
 
 const void menu()
 {
-	SetConsoleTitle("This is kinda SuS v1.0");
-	std::cout << "RecoilMaster v1.0 :)" << std::endl;
+	SetConsoleTitle("Apex小工具 v1.0");
 	compileDateTime();
 	std::cout <<"\n" << std::endl;
 	std::cout << "#--------------------------------------------------#" << std::endl;
-	std::cout << "Starting anti-recoil script. Press INSERT to stop." << std::endl;
+	std::cout << "按 INSERT 鍵關閉成個Script。" << std::endl;
 	std::cout << "" << std::endl;
-	std::cout << "Press NUMPAD 0 to deactive script" << std::endl;
-	std::cout << "Press NUMPAD 1 to active Flatline" << std::endl;
-	std::cout << "Press NUMPAD 2 to active Car" << std::endl;
-	std::cout << "Press NUMPAD 3 to active Volt" << std::endl;
-	std::cout << "Holding XBUTTON2 to use fast Loot" << std::endl;
-	std::cout << "Scroll your mouse wheel down to auto superglide" << std::endl;
+	std::cout << "撳一下 NUMPAD 0 取消啟用" << std::endl;
+	std::cout << "撳一下 NUMPAD 1 啟用 Flatline" << std::endl;
+	std::cout << "撳一下 NUMPAD 2 啟用 Car" << std::endl;
+	std::cout << "撳一下 NUMPAD 3 啟用 Volt" << std::endl;
+	std::cout << "撳住 XBUTTON2   啟用快速執野" << std::endl;
+	std::cout << "" << std::endl;
+	std::cout << "#--------------------------------------------------#" << std::endl;
+	std::cout << "向下滾動滑鼠滾輪輔助你superglide，它會自動幫你按下空格鍵和蹲鍵， 最好將FPS鎖定在 144" << std::endl;
 
 }
